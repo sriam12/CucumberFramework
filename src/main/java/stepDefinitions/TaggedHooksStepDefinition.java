@@ -21,7 +21,7 @@ public class TaggedHooksStepDefinition {
 	
 	@Before(order=1)
 	public void setUP1(){
-		System.out.println("launch FF");
+		System.out.println("launch Chrome");
 		System.out.println("Enter URL for Free CRM APP");
 	}
 

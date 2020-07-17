@@ -13,6 +13,6 @@ Then Close the browser
 
 Examples:
 	| username | password | firstname | lastname | position |
-	| naveenk  | test@123 | Tom 	  | Peter    | Manager  |
-	| naveenk  | test@123 | David 	  | Dsouza   | Director |	
+	| batchautomation  | Test@12345 | Tom 	  | Peter    | Manager  |
+	| batchautomation  | Test@12345 | David 	  | Dsouza   | Director |	
 	

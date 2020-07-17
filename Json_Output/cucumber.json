@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 259317,
+              "duration": 3141518,
               "status": "passed"
             },
             "match": {
@@ -15,7 +15,7 @@
           },
           {
             "result": {
-              "duration": 133065,
+              "duration": 301914,
               "status": "passed"
             },
             "match": {
@@ -24,31 +24,31 @@
           },
           {
             "result": {
-              "duration": 135775,
+              "duration": 553997,
               "status": "passed"
             },
             "match": {
-              "location": "TaggedHooksStepDefinition.beforeFirst()"
+              "location": "Hooks_StepDefinition.setUP()"
             }
           }
         ],
-        "line": 4,
-        "name": "This is First test",
+        "line": 3,
+        "name": "Free CRM Create a new deal scenario",
         "description": "",
-        "id": "test-tagged-hooks;this-is-first-test",
+        "id": "deal-data-creation;free-crm-create-a-new-deal-scenario",
         "after": [
           {
             "result": {
-              "duration": 54473,
+              "duration": 244756,
               "status": "passed"
             },
             "match": {
-              "location": "TaggedHooksStepDefinition.afterFirst()"
+              "location": "Hooks_StepDefinition.tearDown()"
             }
           },
           {
             "result": {
-              "duration": 44919,
+              "duration": 349546,
               "status": "passed"
             },
             "match": {
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 81175,
+              "duration": 290189,
               "status": "passed"
             },
             "match": {
@@ -70,7 +70,2244 @@
         "steps": [
           {
             "result": {
-              "duration": 85898436,
+              "duration": 50167624559,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 379335892,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3701670860,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "DealStepDefnition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "batchautomation",
+                  "Test@12345"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30836564864,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on companies and click new company",
+            "match": {
+              "location": "CompaniesStepDefinition.click_on_companies_and_click_new_company()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8134788480,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "complete the details",
+            "match": {
+              "location": "CompaniesStepDefinition.complete_the_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4550735842,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2522301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 283594,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9870830,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Free CRM Edit a new deal scenario",
+        "description": "",
+        "id": "deal-data-creation;free-crm-edit-a-new-deal-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 191994,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 160483,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 167811,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19053567019,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 363752146,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3055885601,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters username and password",
+            "match": {
+              "location": "DealStepDefnition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "batchautomation",
+                  "Test@12345"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25887264432,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks on particular company and edit that",
+            "match": {
+              "location": "CompaniesStepDefinition.user_clicks_on_particular_company_and_edit_that()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22844693092,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "save the company details",
+            "match": {
+              "location": "CompaniesStepDefinition.save_the_company_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1690879633,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Deal data creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "Companies.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 282128,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 279930,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2184480,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 182467,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 240359,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 213978,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19779484064,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302983160,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3719821607,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"batchautomation\" and \"Test@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "batchautomation",
+                  "offset": 13
+                },
+                {
+                  "val": "Test@12345",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25828744412,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56753970,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9211969278,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user moves to new contact page",
+            "match": {
+              "location": "LoginStepDefinition.user_moves_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16520125280,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters contact details \"Tom\" and \"Peter\" and \"Manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 29
+                },
+                {
+                  "val": "Peter",
+                  "offset": 39
+                },
+                {
+                  "val": "Manager",
+                  "offset": 51
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_contacts_details(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3605056180,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 255015,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1068424,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 287991,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-create-contacts;free-crm-create-a-new-contact-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 241825,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 159751,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 150957,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21378658784,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114528732,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3441382883,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"batchautomation\" and \"Test@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "batchautomation",
+                  "offset": 13
+                },
+                {
+                  "val": "Test@12345",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16375936428,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30048504,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9326325802,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user moves to new contact page",
+            "match": {
+              "location": "LoginStepDefinition.user_moves_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9177479267,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters contact details \"David\" and \"Dsouza\" and \"Director\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 29
+                },
+                {
+                  "val": "Dsouza",
+                  "offset": 41
+                },
+                {
+                  "val": "Director",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_contacts_details(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2114580028,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Create Contacts",
+    "description": "",
+    "id": "free-crm-create-contacts",
+    "keyword": "Feature",
+    "uri": "contacts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 223504,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 185399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 225702,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Free CRM Create a new deal scenario",
+        "description": "",
+        "id": "deal-data-creation;free-crm-create-a-new-deal-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 220573,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 209581,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 976091,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20169943142,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page_d",
+            "match": {
+              "location": "DealStepDefnition.user_already_on_login_page_d()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235870314,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2174298911,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "DealStepDefnition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "batchautomation",
+                  "Test@12345"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27483312290,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on login button_d",
+            "match": {
+              "location": "DealStepDefnition.user_clicks_on_login_button_d()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123366312,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on home page_d",
+            "match": {
+              "location": "DealStepDefnition.user_is_on_hopme_page_d()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6398075811,
+              "error_message": "org.openqa.selenium.ElementNotVisibleException: element not interactable\n  (Session info: chrome\u003d83.0.4103.116)\n  (Driver info: chromedriver\u003d2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform\u003dWindows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027COMPUTER\u0027, ip: \u0027192.168.43.18\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\\Users\\COMPUT~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:3564}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.116, webStorageEnabled: true}\nSession ID: 736200f699531c0d0f6351993a24f610\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat stepDefinitions.DealStepDefnition.user_moves_to_new_contact_page(DealStepDefnition.java:71)\r\n\tat ✽.Then user moves to new deal page(deals.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "user moves to new deal page",
+            "match": {
+              "location": "DealStepDefnition.user_moves_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user enters deal details",
+            "match": {
+              "location": "DealStepDefnition.user_enters_contacts_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "test deal",
+                  "1000",
+                  "50",
+                  "10"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Deal data creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "deals.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 331226,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 197856,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 246954,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Free CRM Create a new deal scenario",
+        "description": "",
+        "id": "deal-data-creation;free-crm-create-a-new-deal-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 795822,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 122378,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 292388,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55599248000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page_",
+            "match": {
+              "location": "DealsStepWithMapDefinition.user_already_on_login_page_()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 516772715,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4867244309,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "users enters username and password",
+            "match": {
+              "location": "DealsStepWithMapDefinition.users_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "batchautomation",
+                  "Test@12345"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35786009657,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "users clicks on login buttoon",
+            "match": {
+              "location": "DealsStepWithMapDefinition.users_clicks_on_login_buttoon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20824006,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "users is on home page",
+            "match": {
+              "location": "DealsStepWithMapDefinition.users_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7499598792,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "users moves to new deal page",
+            "match": {
+              "location": "DealsStepWithMapDefinition.users_moves_to_new_deals_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85645633569,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "users enters deal details",
+            "match": {
+              "location": "DealsStepWithMapDefinition.users_enters_contacts_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "title",
+                  "amount",
+                  "probability",
+                  "commission"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "test deal1",
+                  "1000",
+                  "50",
+                  "10"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "test deal2",
+                  "2000",
+                  "60",
+                  "20"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "test deal3",
+                  "3000",
+                  "70",
+                  "30"
+                ],
+                "line": 18
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11173349201,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Deal data creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "dealsmap.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 206650,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 200788,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 222771,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "free crm create deal test",
+        "description": "",
+        "id": "free-crm-app-test;free-crm-create-deal-test",
+        "after": [
+          {
+            "result": {
+              "duration": 990014,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1438488,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 474855,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165613,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on deal page",
+            "match": {
+              "location": "Hooks_StepDefinition.user_is_on_deal_oage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 534945,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user fills the deals form",
+            "match": {
+              "location": "Hooks_StepDefinition.user_fills_the_deals_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 941649,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "deal is created",
+            "match": {
+              "location": "Hooks_StepDefinition.deal_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 807546,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 713748,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 835393,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "free crm create contact test",
+        "description": "",
+        "id": "free-crm-app-test;free-crm-create-contact-test",
+        "after": [
+          {
+            "result": {
+              "duration": 132637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 837592,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 177338,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 948977,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on contact page",
+            "match": {
+              "location": "Hooks_StepDefinition.user_is_on_contact_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 220573,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills the contact form",
+            "match": {
+              "location": "Hooks_StepDefinition.user_fills_the_contact_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206650,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "contact is created",
+            "match": {
+              "location": "Hooks_StepDefinition.contact_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM app test",
+    "description": "",
+    "id": "free-crm-app-test",
+    "keyword": "Feature",
+    "uri": "hooks.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 4,
+            "value": "#without Examples Keyword"
+          }
+        ],
+        "before": [
+          {
+            "result": {
+              "duration": 346615,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 146560,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 230832,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 711550,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 632407,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 131904,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85402102552,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153606810,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2486305782,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"naveenk\" and \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveenk",
+                  "offset": 13
+                },
+                {
+                  "val": "test@123",
+                  "offset": 27
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22324718037,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 250214894,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40491625184,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 756983,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 213978,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 868370,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Free CRM Login Test Scenarioes",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenarioes;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1627551,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 142896,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 119447,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29627804521,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62587799,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1594094943,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters \"batchautomation\" and \"Test@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "batchautomation",
+                  "offset": 13
+                },
+                {
+                  "val": "Test@12345",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44537448695,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25033214,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11293790904,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 198589,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 780433,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 887422,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Free CRM Login Test Scenarioes",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenarioes;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 628743,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 331959,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 109921,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27789077895,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73139400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2347104374,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters \"tom\" and \"test456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 13
+                },
+                {
+                  "val": "test456",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22054845756,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 464549653,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5680972163,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1240632,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 274800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 205917,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-create-a-new-contact-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 128240,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 170010,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 110653,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27419444288,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85688617,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3706885471,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user enters \"batchautomation\" and \"Test@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "batchautomation",
+                  "offset": 13
+                },
+                {
+                  "val": "Test@12345",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27295951934,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35847891,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9648871817,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user moves to new contact page",
+            "match": {
+              "location": "LoginStepDefinition.user_moves_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12328324883,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user enters contact details \"Tom\" and \"Peter\" and \"Manager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tom",
+                  "offset": 29
+                },
+                {
+                  "val": "Peter",
+                  "offset": 39
+                },
+                {
+                  "val": "Manager",
+                  "offset": 51
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_contacts_details(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3054639107,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 197856,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 142896,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 201520,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Free CRM Create a new contact scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-create-a-new-contact-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 128241,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 132637,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 152422,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23477323107,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96974485,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_Free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2591215769,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user enters \"batchautomation\" and \"Test@12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "batchautomation",
+                  "offset": 13
+                },
+                {
+                  "val": "Test@12345",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17788858054,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82142593,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_hopme_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12436135295,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user moves to new contact page",
+            "match": {
+              "location": "LoginStepDefinition.user_moves_to_new_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12631578446,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user enters contact details \"David\" and \"Dsouza\" and \"Director\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "David",
+                  "offset": 29
+                },
+                {
+                  "val": "Dsouza",
+                  "offset": 41
+                },
+                {
+                  "val": "Director",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_contacts_details(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31878549230,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 194925,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 141431,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 174407,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.beforeFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 197856,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "This is First test",
+        "description": "",
+        "id": "test-tagged-hooks;this-is-first-test",
+        "after": [
+          {
+            "result": {
+              "duration": 184666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.afterFirst()"
+            }
+          },
+          {
+            "result": {
+              "duration": 122378,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 394247,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 124576,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 299716,
               "status": "passed"
             },
             "line": 5,
@@ -82,7 +2319,7 @@
           },
           {
             "result": {
-              "duration": 98039,
+              "duration": 161216,
               "status": "passed"
             },
             "line": 6,
@@ -94,7 +2331,7 @@
           },
           {
             "result": {
-              "duration": 84479,
+              "duration": 176605,
               "status": "passed"
             },
             "line": 7,
@@ -116,7 +2353,7 @@
         "before": [
           {
             "result": {
-              "duration": 112120,
+              "duration": 391315,
               "status": "passed"
             },
             "match": {
@@ -125,7 +2362,7 @@
           },
           {
             "result": {
-              "duration": 82098,
+              "duration": 160484,
               "status": "passed"
             },
             "match": {
@@ -134,11 +2371,20 @@
           },
           {
             "result": {
-              "duration": 76810,
+              "duration": 169277,
               "status": "passed"
             },
             "match": {
               "location": "TaggedHooksStepDefinition.beforeSecond()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1463404,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
             }
           }
         ],
@@ -149,7 +2395,7 @@
         "after": [
           {
             "result": {
-              "duration": 92284,
+              "duration": 143629,
               "status": "passed"
             },
             "match": {
@@ -158,7 +2404,16 @@
           },
           {
             "result": {
-              "duration": 140453,
+              "duration": 110653,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 806081,
               "status": "passed"
             },
             "match": {
@@ -167,7 +2422,7 @@
           },
           {
             "result": {
-              "duration": 66290,
+              "duration": 98195,
               "status": "passed"
             },
             "match": {
@@ -180,7 +2435,7 @@
         "steps": [
           {
             "result": {
-              "duration": 127029,
+              "duration": 124576,
               "status": "passed"
             },
             "line": 11,
@@ -192,7 +2447,7 @@
           },
           {
             "result": {
-              "duration": 88211,
+              "duration": 134103,
               "status": "passed"
             },
             "line": 12,
@@ -204,7 +2459,7 @@
           },
           {
             "result": {
-              "duration": 88937,
+              "duration": 283594,
               "status": "passed"
             },
             "line": 13,
@@ -226,7 +2481,7 @@
         "before": [
           {
             "result": {
-              "duration": 120620,
+              "duration": 1875238,
               "status": "passed"
             },
             "match": {
@@ -235,7 +2490,7 @@
           },
           {
             "result": {
-              "duration": 76143,
+              "duration": 1070623,
               "status": "passed"
             },
             "match": {
@@ -244,11 +2499,20 @@
           },
           {
             "result": {
-              "duration": 67536,
+              "duration": 160483,
               "status": "passed"
             },
             "match": {
               "location": "TaggedHooksStepDefinition.beforeThird()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3391402,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
             }
           }
         ],
@@ -259,7 +2523,7 @@
         "after": [
           {
             "result": {
-              "duration": 74866,
+              "duration": 180269,
               "status": "passed"
             },
             "match": {
@@ -268,7 +2532,16 @@
           },
           {
             "result": {
-              "duration": 67355,
+              "duration": 1752127,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1009067,
               "status": "passed"
             },
             "match": {
@@ -277,7 +2550,7 @@
           },
           {
             "result": {
-              "duration": 66706,
+              "duration": 1655398,
               "status": "passed"
             },
             "match": {
@@ -290,7 +2563,7 @@
         "steps": [
           {
             "result": {
-              "duration": 69572,
+              "duration": 142896,
               "status": "passed"
             },
             "line": 17,
@@ -302,7 +2575,7 @@
           },
           {
             "result": {
-              "duration": 72834,
+              "duration": 180269,
               "status": "passed"
             },
             "line": 18,
@@ -314,7 +2587,7 @@
           },
           {
             "result": {
-              "duration": 71562,
+              "duration": 123111,
               "status": "passed"
             },
             "line": 19,
@@ -337,6 +2610,1600 @@
     "description": "",
     "id": "test-tagged-hooks",
     "keyword": "Feature",
-    "uri": "/Users/NaveenKhunteta/Documents/workspace/FreeCrmBDDFramework/src/main/java/Features/taggedhooks.feature"
+    "uri": "taggedhooks.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 349546,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 496106,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 274727820,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login with correct username and correct password",
+        "description": "",
+        "id": "free-crm-application-testing;login-with-correct-username-and-correct-password",
+        "after": [
+          {
+            "result": {
+              "duration": 144362,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 137034,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 154621,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20715551,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "This is a valid login test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_valid_login_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 4,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 33246447,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 151690,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8719599,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login with incorrect username and correct password",
+        "description": "",
+        "id": "free-crm-application-testing;login-with-incorrect-username-and-correct-password",
+        "after": [
+          {
+            "result": {
+              "duration": 90867,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 93065,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 85737,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 279930,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "This is a invalid login test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_invalid_login_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 159018,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 119346165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 18582367,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Create a contact",
+        "description": "",
+        "id": "free-crm-application-testing;create-a-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 90135,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 107722,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 86470,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11982762,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "This is a contact test case",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_contact_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 53276097,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 211046,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 899113824,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Create a deal",
+        "description": "",
+        "id": "free-crm-application-testing;create-a-deal",
+        "after": [
+          {
+            "result": {
+              "duration": 98928,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 98928,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 96729,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 281396,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "This is a deal test case",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_deal_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 16,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 162682,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 157553,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 388384,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Create a tasks",
+        "description": "",
+        "id": "free-crm-application-testing;create-a-tasks",
+        "after": [
+          {
+            "result": {
+              "duration": 104058,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 95264,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 147293,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 202986,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "This is a tasks test case",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_tasks_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 173674,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 118714,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 172208,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Create a case",
+        "description": "",
+        "id": "free-crm-application-testing;create-a-case",
+        "after": [
+          {
+            "result": {
+              "duration": 121645,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 260877,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 181002,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 214711,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "This is a case test case",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_case_test_case()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 165613,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 163415,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 194192,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verify left panel links",
+        "description": "",
+        "id": "free-crm-application-testing;verify-left-panel-links",
+        "after": [
+          {
+            "result": {
+              "duration": 338441933,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 202986,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 122378,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 241824,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clicking on left panel links",
+            "match": {
+              "location": "TaggingStepDefinition.clicking_on_left_panel_links()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 28,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 28,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 218374,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 131171,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 425024,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Search a deal",
+        "description": "",
+        "id": "free-crm-application-testing;search-a-deal",
+        "after": [
+          {
+            "result": {
+              "duration": 100393,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 109920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 115049,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 201521,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "This is a search deal test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_search_deal_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 32,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 151690,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 114317,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 175873,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Search a contact",
+        "description": "",
+        "id": "free-crm-application-testing;search-a-contact",
+        "after": [
+          {
+            "result": {
+              "duration": 119446,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 97463,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 124576,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 222039,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "This is a search contact test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_search_contact_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 161216,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 126042,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 218375,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Search a case",
+        "description": "",
+        "id": "free-crm-application-testing;search-a-case",
+        "after": [
+          {
+            "result": {
+              "duration": 106989,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 110653,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 106256,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 197124,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "This is a search case test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_search_case_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 40,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 229367,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 120913,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 195658,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Search a task",
+        "description": "",
+        "id": "free-crm-application-testing;search-a-task",
+        "after": [
+          {
+            "result": {
+              "duration": 129705,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 148026,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 115050,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 233764,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "This is a search task test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_search_task_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 44,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 44,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 274800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 128973,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 196391,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Search a call",
+        "description": "",
+        "id": "free-crm-application-testing;search-a-call",
+        "after": [
+          {
+            "result": {
+              "duration": 194193,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 115049,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 101859,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 219107,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "This is a search call test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_search_call_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 48,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 48,
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 214711,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 146560,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 136301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Search an email",
+        "description": "",
+        "id": "free-crm-application-testing;search-an-email",
+        "after": [
+          {
+            "result": {
+              "duration": 92333,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 74013,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 134103,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 188330,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "This is a search email test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_search_email_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 52,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 52,
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 157552,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 129706,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 148758,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Search a docs",
+        "description": "",
+        "id": "free-crm-application-testing;search-a-docs",
+        "after": [
+          {
+            "result": {
+              "duration": 106989,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 106256,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 246221,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 213245,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "This is a search docs test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_search_docs_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 56,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 56,
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 227901,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 98928,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 165613,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Search a forms",
+        "description": "",
+        "id": "free-crm-application-testing;search-a-forms",
+        "after": [
+          {
+            "result": {
+              "duration": 110652,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 107722,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 107722,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 276999,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "This is a search forms test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_search_forms_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 60,
+            "name": "@SmokeTest"
+          },
+          {
+            "line": 60,
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 168545,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 129706,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 238893,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "validate a report",
+        "description": "",
+        "id": "free-crm-application-testing;validate-a-report",
+        "after": [
+          {
+            "result": {
+              "duration": 109920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 103325,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 115049,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1129979,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "This is a report test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_report_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 64,
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 155354,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 120912,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 163414,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "Application Logout",
+        "description": "",
+        "id": "free-crm-application-testing;application-logout",
+        "after": [
+          {
+            "result": {
+              "duration": 90868,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 68884,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 87203,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 266740,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "This is a logout test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_logout_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 68,
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 135568,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP()"
+            }
+          },
+          {
+            "result": {
+              "duration": 95264,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUP1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 172941,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.setUP()"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "browser closed",
+        "description": "",
+        "id": "free-crm-application-testing;browser-closed",
+        "after": [
+          {
+            "result": {
+              "duration": 109920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks_StepDefinition.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 106256,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 105523,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 205185,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "This is a close broswer test",
+            "match": {
+              "location": "TaggingStepDefinition.this_is_a_close_broswer_test()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM application testing",
+    "description": "",
+    "id": "free-crm-application-testing",
+    "keyword": "Feature",
+    "uri": "tagging.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
   }
 ]
