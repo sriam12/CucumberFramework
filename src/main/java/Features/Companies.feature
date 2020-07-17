@@ -1,4 +1,4 @@
-Feature: Deal data creation
+Feature: Deal data creationfor compinies
 
 Scenario: Free CRM Create a new deal scenario
 
