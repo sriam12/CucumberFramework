@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="34" time="1052.426662">
-<testcase classname="Deal data creation" name="Free CRM Create a new deal scenario" time="97.775602">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="34" time="579.592875">
+<testcase classname="Deal data creationfor compinies" name="Free CRM Create a new deal scenario" time="65.23225">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters username and password......................................passed
@@ -9,7 +9,7 @@ Then complete the details...................................................pass
 Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Deal data creation" name="Free CRM Edit a new deal scenario" time="72.909239">
+<testcase classname="Deal data creationfor compinies" name="Free CRM Edit a new deal scenario" time="71.146406">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters username and password......................................passed
@@ -18,7 +18,7 @@ Then save the company details...............................................pass
 Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario" time="79.028321">
+<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario" time="64.952803">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters "batchautomation" and "Test@12345".........................passed
@@ -29,7 +29,7 @@ Then user enters contact details "Tom" and "Peter" and "Manager"............pass
 Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario 2" time="61.961104">
+<testcase classname="Free CRM Create Contacts" name="Free CRM Create a new contact scenario 2" time="48.531235">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters "batchautomation" and "Test@12345".........................passed
@@ -40,45 +40,18 @@ Then user enters contact details "David" and "Dsouza" and "Director"........pass
 Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Deal data creation" name="Free CRM Create a new deal scenario" time="56.586908">
-<failure message="org.openqa.selenium.ElementNotVisibleException: element not interactable&#10;  (Session info: chrome=83.0.4103.116)&#10;  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'COMPUTER', ip: '192.168.43.18', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\COMPUT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:3564}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.116, webStorageEnabled: true}&#10;Session ID: 736200f699531c0d0f6351993a24f610&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#13;&#10;&#9;at stepDefinitions.DealStepDefnition.user_moves_to_new_contact_page(DealStepDefnition.java:71)&#13;&#10;&#9;at ✽.Then user moves to new deal page(deals.feature:12)&#13;&#10;"><![CDATA[Given user is already on Login Page_d.......................................passed
+<testcase classname="Deal data creation" name="Free CRM Create a new deal scenario" time="55.223378">
+<system-out><![CDATA[Given user is already on Login Page_d.......................................passed
 When title of login page is Free CRM........................................passed
 Then user enters username and password......................................passed
 Then user clicks on login button_d..........................................passed
 Then user is on home page_d.................................................passed
-Then user moves to new deal page............................................failed
-Then user enters deal details...............................................skipped
-Then Close the browser......................................................skipped
-
-StackTrace:
-org.openqa.selenium.ElementNotVisibleException: element not interactable
-  (Session info: chrome=83.0.4103.116)
-  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'COMPUTER', ip: '192.168.43.18', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\COMPUT~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:3564}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 83.0.4103.116, webStorageEnabled: true}
-Session ID: 736200f699531c0d0f6351993a24f610
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at stepDefinitions.DealStepDefnition.user_moves_to_new_contact_page(DealStepDefnition.java:71)
-	at ✽.Then user moves to new deal page(deals.feature:12)
-]]></failure>
+Then user moves to new deal page............................................passed
+Then user enters deal details...............................................passed
+Then Close the browser......................................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Deal data creation" name="Free CRM Create a new deal scenario" time="201.110667">
+<testcase classname="Deal data creation" name="Free CRM Create a new deal scenario" time="88.355424">
 <system-out><![CDATA[Given user is already on Login Page_........................................passed
 When title of login page is Free CRM........................................passed
 Then users enters username and password.....................................passed
@@ -89,19 +62,19 @@ Then users enters deal details..............................................pass
 Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM app test" name="free crm create deal test" time="0.005176">
+<testcase classname="Free CRM app test" name="free crm create deal test" time="0.003144">
 <system-out><![CDATA[Given user is on deal page..................................................passed
 When user fills the deals form..............................................passed
 Then deal is created........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM app test" name="free crm create contact test" time="0.00488">
+<testcase classname="Free CRM app test" name="free crm create contact test" time="0.005837">
 <system-out><![CDATA[Given user is on contact page...............................................passed
 When user fills the contact form............................................passed
 Then contact is created.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="151.110773">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="32.887548">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters "naveenk" and "test@123"...................................passed
@@ -110,7 +83,7 @@ Then user is on home page...................................................pass
 Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenarioes" time="87.144489">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenarioes" time="29.290769">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters "batchautomation" and "Test@12345".........................passed
@@ -119,7 +92,7 @@ Then user is on home page...................................................pass
 Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenarioes 2" time="58.412626">
+<testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenarioes 2" time="28.645649">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters "tom" and "test456"........................................passed
@@ -128,7 +101,7 @@ Then user is on home page...................................................pass
 Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Create a new contact scenario" time="83.577784">
+<testcase classname="Free CRM Login Feature" name="Free CRM Create a new contact scenario" time="43.308451">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters "batchautomation" and "Test@12345".........................passed
@@ -139,7 +112,7 @@ Then user enters contact details "Tom" and "Peter" and "Manager"............pass
 Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM Login Feature" name="Free CRM Create a new contact scenario 2" time="100.983733">
+<testcase classname="Free CRM Login Feature" name="Free CRM Create a new contact scenario 2" time="51.939115">
 <system-out><![CDATA[Given user is already on Login Page.........................................passed
 When title of login page is Free CRM........................................passed
 Then user enters "batchautomation" and "Test@12345".........................passed
@@ -150,93 +123,93 @@ Then user enters contact details "David" and "Dsouza" and "Director"........pass
 Then Close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Tagged Hooks" name="This is First test" time="0.002172">
+<testcase classname="Test Tagged Hooks" name="This is First test" time="0.003429">
 <system-out><![CDATA[Given this is the first step................................................passed
 When this is the second step................................................passed
 Then this is the third step.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Tagged Hooks" name="This is Second test" time="0.003885">
+<testcase classname="Test Tagged Hooks" name="This is Second test" time="0.005196">
 <system-out><![CDATA[Given this is the first step................................................passed
 When this is the second step................................................passed
 Then this is the third step.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test Tagged Hooks" name="This is Third test" time="0.011541">
+<testcase classname="Test Tagged Hooks" name="This is Third test" time="0.018012">
 <system-out><![CDATA[Given this is the first step................................................passed
 When this is the second step................................................passed
 Then this is the third step.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Login with correct username and correct password" time="0.296725">
+<testcase classname="Free CRM application testing" name="Login with correct username and correct password" time="0.004469">
 <system-out><![CDATA[Given This is a valid login test............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Login with incorrect username and correct password" time="0.042667">
+<testcase classname="Free CRM application testing" name="Login with incorrect username and correct password" time="0.005624">
 <system-out><![CDATA[Given This is a invalid login test..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Create a contact" time="0.150355">
+<testcase classname="Free CRM application testing" name="Create a contact" time="0.005205">
 <system-out><![CDATA[Given This is a contact test case...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Create a deal" time="0.953177">
+<testcase classname="Free CRM application testing" name="Create a deal" time="0.003848">
 <system-out><![CDATA[Given This is a deal test case..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Create a tasks" time="0.001258">
+<testcase classname="Free CRM application testing" name="Create a tasks" time="0.003438">
 <system-out><![CDATA[Given This is a tasks test case.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Create a case" time="0.001243">
+<testcase classname="Free CRM application testing" name="Create a case" time="0.004076">
 <system-out><![CDATA[Given This is a case test case..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Verify left panel links" time="0.339532">
+<testcase classname="Free CRM application testing" name="Verify left panel links" time="0.00397">
 <system-out><![CDATA[Given clicking on left panel links..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Search a deal" time="0.001301">
+<testcase classname="Free CRM application testing" name="Search a deal" time="0.002382">
 <system-out><![CDATA[Given This is a search deal test............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Search a contact" time="0.001005">
+<testcase classname="Free CRM application testing" name="Search a contact" time="0.000987">
 <system-out><![CDATA[Given This is a search contact test.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Search a case" time="0.001027">
+<testcase classname="Free CRM application testing" name="Search a case" time="0.001002">
 <system-out><![CDATA[Given This is a search case test............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Search a task" time="0.001172">
+<testcase classname="Free CRM application testing" name="Search a task" time="0.00101">
 <system-out><![CDATA[Given This is a search task test............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Search a call" time="0.00123">
+<testcase classname="Free CRM application testing" name="Search a call" time="0.001436">
 <system-out><![CDATA[Given This is a search call test............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Search an email" time="0.000986">
+<testcase classname="Free CRM application testing" name="Search an email" time="0.001167">
 <system-out><![CDATA[Given This is a search email test...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Search a docs" time="0.001109">
+<testcase classname="Free CRM application testing" name="Search a docs" time="0.000981">
 <system-out><![CDATA[Given This is a search docs test............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Search a forms" time="0.001096">
+<testcase classname="Free CRM application testing" name="Search a forms" time="0.00091">
 <system-out><![CDATA[Given This is a search forms test...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="validate a report" time="0.001995">
+<testcase classname="Free CRM application testing" name="validate a report" time="0.001748">
 <system-out><![CDATA[Given This is a report test.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="Application Logout" time="0.000953">
+<testcase classname="Free CRM application testing" name="Application Logout" time="0.001074">
 <system-out><![CDATA[Given This is a logout test.................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Free CRM application testing" name="browser closed" time="0.000931">
+<testcase classname="Free CRM application testing" name="browser closed" time="0.000902">
 <system-out><![CDATA[Given This is a close broswer test..........................................passed
 ]]></system-out>
 </testcase>
